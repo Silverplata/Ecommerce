@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agoodshop</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <h1 class="header__logo">AGOODSHOP</h1>
+            <div class="header__search">
+            </div>
+            <ul class="header__nav-menu">
+                <li class="header__menu-item"><a href="#">Tienda</a></li>
+                <li class="header__menu-item"><a href="#">Accesorios</a></li>
+                <li class="header__menu-item"><a href="#">Soporte</a></li>
+                <li class="header__menu-item--special"><a href="#">Contactar</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="product">
+            <div class="product__image-wrapper">
+                <img class="product__image" alt="inmotion vf w" src="https://tecowheel.com/wp-content/uploads/2020/05/inmotion-v8f-1000w.png">
+                <span class="product__offer-badge">2000W</span>
+            </div>
+            <div class="product__info">
+                <div class="product__header">
+                    <span class="product__offer-label">OFERTA</span>
+                    <h2 class="product__title">INMOTION V8F EVO</h2>
+                    <p class="product__description">Monociclo V8: Inmotion V8F es el monociclo eléctrico que hace referencia a lo mejor en calidad y precio del mercado. Su velocidad máxima es de 35 km/h (limitada a 25 km/h de fábrica). Su motor no se queda atrás , ya que tiene una potencia de 2000W. Su batería de litio 518 Wh de marca LG (alta calidad), que te ofrecerá una autonomía de hasta 50 km.</p>
+                </div>
+                <div class="product__purchase">
+                    <span class="product__price">899 €</span>
+                    <input type="number" id="cantidad" min="1" value="1" class="product__quantity">
+                    <button class="product__buy-btn">Comprar</button>
+                </div>
+                <ul class="product__features">
+                    <li><span class="product__feature-icon">✉</span> <span class="product__feature-text">Envio rapido, gratuito y sin contacto</span></li>
+                    <li><span class="product__feature-icon">♺</span> <span class="product__feature-text">Devoluciones faciles y gratuitas</span></li>
+                    <li><span class="product__feature-icon">＄</span> <span class="product__feature-text">Publicidad de pago a plazos</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="accessories">
+            <h2 class="accessories__title">Accesorios recomendados</h2>
+            <div class="accessories__wrapper">
+                <div class="accessories__item">
+                    <img class="accessories__image" src="https://placehold.co/250x200" alt="Accesorio 1">
+                    <h3 class="accessories__item-title">Cargador</h3>
+                    <p class="accessories__description">El cargador para InMotion V8F ofrece carga rápida y segura, diseñado específicamente para mantener el rendimiento óptimo de tu monociclo eléctrico.</p>
+                </div>
+                <div class="accessories__item">
+                    <img class="accessories__image" src="https://placehold.co/250x200" alt="Accesorio 2">
+                    <h3 class="accessories__item-title">Pedal para Inmotion</h3>
+                    <button class="accessories__button accessories__button--offer">Oferta</button>
+                    <p class="accessories__description">El pedal para InMotion combina durabilidad y diseño antideslizante para mayor estabilidad y comodidad en cada viaje, asegurando un soporte firme y seguro.</p>
+                </div>
+                <div class="accessories__item">
+                    <img class="accessories__image" src="https://placehold.co/250x200" alt="Accesorio 3">
+                    <h3 class="accessories__item-title">Funda gris Inmotion</h3>
+                    <p class="accessories__description">La funda gris para InMotion protege el monociclo de golpes, rayones y suciedad, ofreciendo un ajuste preciso y un diseño elegante. Fabricada con materiales duraderos, garantiza estilo y resistencia en cada trayecto.</p>
+                </div>
+                <div class="accessories__item">
+                    <img class="accessories__image" src="https://placehold.co/250x200" alt="Accesorio 4">
+                    <h3 class="accessories__item-title">Asiento Para Inmotion</h3>
+                    <button class="accessories__button accessories__button--new">Nuevo</button>
+                    <p class="accessories__description">Este asiento permite alternar entre conducir sentado o de pie, ideal para quienes buscan mayor versatilidad en sus desplazamientos.</p>
+                </div>
+            </div>
+        </section>
+        <section class="raffle">
+            <div class="raffle__content">
+                <div class="raffle__info">
+                    <h3 class="raffle__title">Participa en el sorteo de un Inmotion V8F EVO</h3>
+                    <p class="raffle__description">Este verano, ¡venimos cargados de premios! Así que antes
+                        de irte de vacaciones, ¡participa en nuestro sorteo! y podrás llevarte
+                        un regalo increíble como un nuevo V8F.
+                    </p>
+                    <p class="raffle__description">Rellena este formulario para ser uno de los afortunados.</p>
+                </div>
+                <div class="raffle__form-container">
+                    <form action="#" class="raffle__form">
+                        <div class="raffle__form-group">
+                            <label for="nombre">Nombre</label>
+                            <input class="raffle__form-input" type="text" name="nombre" id="name" placeholder="Jesus">
+                        </div>
+                        <div class="raffle__form-group">
+                            <label for="email">Email</label>
+                            <input class="raffle__form-input" type="email" name="mail" id="mail" placeholder="correo@yahoo.es">
+                        </div>
+                        <div class="raffle__form-group">
+                            <button class="raffle__form-btn" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Agoodshop - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
